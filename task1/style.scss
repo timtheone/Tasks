@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(67, 67, 67);
+}
+.tabs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    li {
+        input {
+            display: none;
+        }
+        // Logic to make tabs toggable. Change color of a label and show content of a tab.
+        input:checked + label {
+            color: rgb(172, 172, 172);
+            background-color: #fff;
+        }
+        input:checked ~ .tab-content {
+            display: block;
+        }
+    }
+    label {
+        display: inline-block;
+        background-color: rgb(222, 222, 222);
+        padding: 10px;
+        cursor: pointer;
+        margin-right: 2px;
+    }
+
+    .tab-content {
+        display: none;
+    }
+}
+
+
+// Media queries. Transform tabs to accordion on devices smaller than 768px in width.
+@media (min-width: 769px) {
+    .tabs {
+        li {
+            float: left;
+        }
+        .tab-content {
+            position: absolute;
+            left: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .tabs {
+        label {
+            width: 100%;
+        }
+    }
+}

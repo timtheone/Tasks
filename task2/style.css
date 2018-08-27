@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #434343; }
+
+.tabs {
+  display: flex; }
+  .tabs .tab-navs {
+    background-color: #dedede; }
+    .tabs .tab-navs ul {
+      width: 200px;
+      padding: 0;
+      margin: 0;
+      list-style-type: none; }
+      .tabs .tab-navs ul li {
+        border-bottom: 2px solid #fff; }
+        .tabs .tab-navs ul li button {
+          display: block;
+          background-color: inherit;
+          width: 100%;
+          border: none;
+          outline: none;
+          text-align: left;
+          cursor: pointer;
+          transition: 0.3s;
+          font-size: 17px;
+          padding: 20px; }
+        .tabs .tab-navs ul li:nth-child(1) {
+          background-color: #fff; }
+      .tabs .tab-navs ul :last-child {
+        border: none; }
+  .tabs .content-container {
+    padding: 0 20px; }
+    .tabs .content-container .content {
+      display: none; }
+    .tabs .content-container :nth-child(1) {
+      display: block; }
+
+/*# sourceMappingURL=style.css.map */
