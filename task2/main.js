@@ -1,7 +1,7 @@
 const button = document.querySelectorAll(".showContent");
+const content = document.querySelectorAll(".content")
 
 for (let i = 0; i < button.length; i++) {
-    const content = document.querySelectorAll(".content")
     button[i].addEventListener("click", ()=>{
         for (let i = 0; i < content.length; i++) {
             content[i].style.display = "none";
