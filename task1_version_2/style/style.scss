@@ -40,6 +40,10 @@ body {
 @media (min-width: 769px) {
     .tabs {
         display: flex;
+        .tab-content {
+            position: absolute;
+            left: 0;
+        }
     }
 }
 

@@ -6,8 +6,7 @@ body {
 .tabs {
   list-style-type: none;
   padding: 0;
-  margin: 0;
-  position: relative; }
+  margin: 0; }
   .tabs .tab input {
     display: none; }
   .tabs .tab input:checked + label {

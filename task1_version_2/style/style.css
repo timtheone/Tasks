@@ -27,7 +27,10 @@ body {
 
 @media (min-width: 769px) {
   .tabs {
-    display: flex; } }
+    display: flex; }
+    .tabs .tab-content {
+      position: absolute;
+      left: 0; } }
 @media (max-width: 768px) {
   .tabs label {
     width: 100%; } }
