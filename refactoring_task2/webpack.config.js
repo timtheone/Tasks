@@ -2,6 +2,7 @@ const path = require('path');
 
 const config = {
   entry: './src/index.js',
+  watch: true,
   output: {
     path: path.resolve(__dirname, 'assets'),
     filename: 'bundle.js'
