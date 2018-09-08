@@ -1,0 +1,12 @@
+// BEM element selector
+@mixin e($element) {
+    &__#{$element} {
+        @content
+    }
+};
+// BEM modifier for an element
+@mixin m($modifier) {
+    &--#{$modifier} {
+        @content
+    }
+};
