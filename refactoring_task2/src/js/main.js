@@ -18,5 +18,6 @@ function showTabs(e) {
             }
         })
     } 
+    e.stopPropagation();
 }
 export default showTabs
