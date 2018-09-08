@@ -1,8 +1,13 @@
 # Tasks
 
 To make changes to javascript and sass code for refactoring_task 2:
+change directory to refactoring_task2
 
-// Install required packages
-1. npm intall
-// Run compiling js and sass changes in watch mode
-2. npm run build 
+1. Install required packages
+```
+npm install
+```
+2. Run compiling js and sass changes in watch mode
+```
+npm run build 
+```
